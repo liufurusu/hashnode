@@ -1,8 +1,9 @@
 ---
 title: "多个硬盘怎么 映射到 到一个文件夹用"
-datePublished: Fri Aug 09 2024 03:07:57 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Aug 10 2024 16:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clzm4n1x9000a0amh9kuhep74
-slug: 5asa5liq56gs55uy5oco5lmiioayoowwhowiscdlildkuidkukrmlofku7blplnnlkg
+slug: folder-mapping-under-windows
+tags: windows
 
 ---
 
