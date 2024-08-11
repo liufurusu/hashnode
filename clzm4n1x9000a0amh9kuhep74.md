@@ -3,7 +3,7 @@ title: "多个硬盘怎么 映射到 到一个文件夹用"
 datePublished: Sat Aug 10 2024 16:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clzm4n1x9000a0amh9kuhep74
 slug: folder-mapping-under-windows
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723369092559/c03d72c3-cbbd-4907-8a3b-a4ab28b01770.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723369314527/870fce9d-9f1a-4cc1-a48d-87193b321d3a.jpeg
 tags: windows
 
 ---
