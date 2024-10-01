@@ -21,13 +21,13 @@ tags: powershell
     * 在 PowerShell 中运行以下命令安装模块：
         
         ```plaintext
-        powershell复制代码Install-Module -Name PS2EXE -Scope CurrentUser
+        powershell Install-Module -Name PS2EXE -Scope CurrentUser
         ```
         
 2. 使用命令行工具将脚本转换为 `.exe`：
     
     ```plaintext
-    powershell复制代码ps2exe.ps1 -inputFile "D:\YourScript.ps1" -outputFile "D:\YourScript.exe"
+    powershell ps2exe.ps1 -inputFile "D:\YourScript.ps1" -outputFile "D:\YourScript.exe"
     ```
     
 3. 你还可以使用 `PS2EXE-GUI` 图形界面工具，以更直观的方式将 `.ps1` 脚本打包为 `.exe` 文件。
@@ -87,7 +87,7 @@ IExpress 是 Windows 内置的一个工具，可以打包文件为 `.exe`。你�
 2. 在向导中选择打包 PowerShell 脚本并指定执行命令：
     
     ```plaintext
-    bash复制代码powershell.exe -ExecutionPolicy Bypass -File "YourScript.ps1"
+    bash powershell.exe -ExecutionPolicy Bypass -File "YourScript.ps1"
     ```
     
 3. 按照向导完成打包过程。
@@ -118,14 +118,14 @@ IExpress 是 Windows 内置的一个工具，可以打包文件为 `.exe`。你�
 1. 编写一个 Python 脚本，通过 `subprocess` 调用 PowerShell：
     
     ```plaintext
-    python复制代码import subprocess
+    python import subprocess
     subprocess.run(["powershell", "-ExecutionPolicy", "Bypass", "-File", "YourScript.ps1"])
     ```
     
 2. 使用 PyInstaller 将 Python 脚本打包为 `.exe`：
     
     ```plaintext
-    bash复制代码pyinstaller --onefile YourPythonScript.py
+    bash pyinstaller --onefile YourPythonScript.py
     ```
     
 
