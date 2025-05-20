@@ -11,8 +11,8 @@ tags: docker, casaos, 546p5a6i5lqr
 
 原因想必各位很清楚，只能换源。整理操作如下：  
 SSH或者打开casaos终端；执行：  
-国内执行：bash &lt;(curl -sSL gitee.com/xjxjin/scripts/raw/main/check\_docker\_registry.sh)  
-国际执行：bash &lt;(curl -sSL raw.githubusercontent.com/xjxjin/scripts/main/check\_docker\_registry.sh)  
+国内执行：bash &lt;(curl -sSL [https://gitee.com/xjxjin/scripts/raw/main/check\_docker\_registry.sh](https://gitee.com/xjxjin/scripts/raw/main/check_docker_registry.sh))  
+国际执行：bash &lt;(curl -sSL [https://raw.githubusercontent.com/xjxjin/scripts/main/check\_docker\_registry.sh](https://raw.githubusercontent.com/xjxjin/scripts/main/check_docker_registry.sh))  
 或者添加第三方商店：
 
 https://play.cuse.eu.org/Cp0204-AppStore-Play.zip  
